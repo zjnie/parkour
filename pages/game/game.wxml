@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="header">
+    <image class="header-image" mode="widthFix" src="../../images/mr.jpg"></image>
+  </view>
+  <view class="tab"></view>
+  <view class="list"></view>
+</view>

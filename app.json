@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/game/game",
+    "pages/shop/shop",
+    "pages/rank/rank",
+    "pages/my-center/my-center",
+    "pages/game/detail/detail",
+    "pages/my-center/detail/detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/game/game",
+        "text": "比赛中心"
+      },
+      {
+        "pagePath": "pages/shop/shop",
+        "text": "商城"
+      },
+      {
+        "pagePath": "pages/rank/rank",
+        "text": "排行榜"
+      },
+      {
+        "pagePath": "pages/my-center/my-center",
+        "text": "个人中心"
+      }
+    ]
+  }
+}

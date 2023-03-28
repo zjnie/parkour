@@ -1,0 +1,4 @@
+<!--pages/my-center/my-center.wxml-->
+<view class="container">
+  <button bind:tap="jumpDetail">进入个人公告</button>
+</view>

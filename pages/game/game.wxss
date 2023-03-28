@@ -1,0 +1,14 @@
+/**index.wxss**/
+.header {
+  height: 300rpx;
+  background-color: royalblue;
+}
+
+.header-image {
+  position: absolute;
+  top: 160rpx;
+  left: 5%;
+  display: block;
+  width: 90%;
+}
+
