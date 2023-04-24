@@ -3,6 +3,8 @@
   background-color: transparent !important;
 }
 
+.van-button--primary,
 button[type=primary] {
   background-color: #062370 !important;
+  border-color: #062370 !important;
 }

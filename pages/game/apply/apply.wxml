@@ -11,10 +11,12 @@
 <view class="scroll-container">
   <view wx:for="{{ 10 }}" wx:key="*this" class="item">
     <view class="title">6月幼儿亲子比赛</view>
-    <view class="time">开始时间：2023-03-06 10:00:00</view>
-    <view class="target">参赛人群：幼儿亲子</view>
-    <view class="place">活动地点：刘安体育中心</view>
-    <view class="mileage">比赛里程：10公里</view>
+    <view class="info">开始时间：2023-03-06 10:00:00</view>
+    <view class="info">参赛人群：幼儿亲子</view>
+    <view class="info">活动地点：刘安体育中心</view>
+    <view class="info">比赛里程：10公里</view>
+    <view class="target">幼儿亲子</view>
+    <van-button type="primary" round>报名参赛</van-button>
   </view>
 </view>
 

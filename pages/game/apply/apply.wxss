@@ -1,4 +1,9 @@
 /* pages/game/apply/apply.wxss */
+page {
+  display: flex;
+  flex-direction: column;
+}
+
 .header {
   height: 96rpx;
   padding: 0 56rpx;
@@ -28,11 +33,15 @@
 }
 
 .scroll-container {
+  flex-grow: 1;
+  margin-top: 26rpx;
   padding: 0 26rpx;
+  overflow: auto;
 }
 
 .item {
-  margin: 26rpx 0;
+  position: relative;
+  margin-bottom: 26rpx;
   padding: 26rpx 34rpx;
   border-radius: 22rpx;
   background-color: #fff;
@@ -45,10 +54,67 @@
   line-height: 44rpx;
 }
 
-view + view {
+.title::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 30rpx;
+  display: inline-block;
+  width: 10rpx;
+  height: 32rpx;
+}
+
+.info {
+  margin-top: 10px;
   font-size: 24rpx;
   font-weight: 500;
   color: #989696;
   line-height: 34rpx;
+}
+
+.target {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 142rpx;
+  line-height: 56rpx;
+  text-align: center;
+  color: #fff;
+  font-size: 24rpx;
+  border-top-right-radius: 22rpx;
+  border-bottom-left-radius: 22rpx;
+}
+
+.item .van-button {
+  position: absolute;
+  right: 30rpx;
+  bottom: 20rpx;
+  width: 210rpx;
+  height: 54rpx;
+  font-size: 24rpx;
+}
+
+.item:nth-child(3n + 1) .title:before {
+  background-color: #FFAC07;
+}
+
+.item:nth-child(3n + 1) .target {
+  background-color: #FFAC07;
+}
+
+.item:nth-child(3n + 2) .title:before {
+  background-color: #FC4A5B;
+}
+
+.item:nth-child(3n + 2) .target {
+  background-color: #FC4A5B;
+}
+
+.item:nth-child(3n + 3) .title:before {
+  background-color: #149D74;
+}
+
+.item:nth-child(3n + 3) .target {
+  background-color: #149D74;
 }
 
