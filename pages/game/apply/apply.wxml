@@ -1,0 +1,20 @@
+<!--pages/game/apply/apply.wxml-->
+<view class="header">
+  <van-search shape="round" placeholder="比赛名称..." />
+</view>
+<van-tabs color="#0B3795">
+  <van-tab title="标签 1"></van-tab>
+  <van-tab title="标签 2"></van-tab>
+  <van-tab title="标签 3"></van-tab>
+  <van-tab title="标签 4"></van-tab>
+</van-tabs>
+<view class="scroll-container">
+  <view wx:for="{{ 10 }}" wx:key="*this" class="item">
+    <view class="title">6月幼儿亲子比赛</view>
+    <view class="time">开始时间：2023-03-06 10:00:00</view>
+    <view class="target">参赛人群：幼儿亲子</view>
+    <view class="place">活动地点：刘安体育中心</view>
+    <view class="mileage">比赛里程：10公里</view>
+  </view>
+</view>
+

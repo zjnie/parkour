@@ -13,6 +13,8 @@ Page({
     duration: 500
   },
   jumpDetail() {
-    wx.navigateTo('/game/detail')
+    wx.navigateTo({
+      url: '/pages/game/detail/detail'
+    })
   }
 })

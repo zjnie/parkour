@@ -1,0 +1,54 @@
+/* pages/game/apply/apply.wxss */
+.header {
+  height: 96rpx;
+  padding: 0 56rpx;
+  background-color: #0B3795;
+}
+
+.van-search {
+  position: relative;
+  top: 48rpx;
+}
+
+.van-cell {
+  display: flex;
+  align-items: center;
+}
+
+.van-field__control {
+  height: 76rpx !important;
+}
+
+.van-tabs {
+  margin-top: 72rpx;
+}
+
+.van-tabs__scroll {
+  background-color: transparent !important;
+}
+
+.scroll-container {
+  padding: 0 26rpx;
+}
+
+.item {
+  margin: 26rpx 0;
+  padding: 26rpx 34rpx;
+  border-radius: 22rpx;
+  background-color: #fff;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 32rpx;
+  color: #333333;
+  line-height: 44rpx;
+}
+
+view + view {
+  font-size: 24rpx;
+  font-weight: 500;
+  color: #989696;
+  line-height: 34rpx;
+}
+

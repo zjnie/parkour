@@ -1,0 +1,8 @@
+.van-search {
+  padding: 0 !important;
+  background-color: transparent !important;
+}
+
+button[type=primary] {
+  background-color: #062370 !important;
+}

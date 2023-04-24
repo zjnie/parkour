@@ -21,22 +21,9 @@
   height: 80rpx;
 }
 
-.search {
-  display: flex;
-  align-items: center;
-  padding: 0 16rpx;
-  margin-left: 44rpx;
-  width: 260rpx;
-  height: 60rpx;
-  background-color: #fff;
-  border-radius: 30rpx;
-}
-
-.search-divide {
-  height: 60%;
-  width: 1px;
-  margin: 0 10rpx;
-  background-color: #E5E5E5;
+van-search {
+  width: 360rpx;
+  margin-left: 20rpx;
 }
 
 swiper {
@@ -112,4 +99,6 @@ swiper-item {
   font-size: 28rpx;
   color: #989696;
 }
+
+
 

@@ -1,11 +1,7 @@
 <view class="header-background"></view>
 <view class="header">
-  <image class="logo" mode="heightFix" src="../../images/mr.jpg"></image>
-  <view class="search">
-    <view class="search-icon iconfont icon-arrow-right"></view>
-    <view class="search-divide"></view>
-    <input class="search-input" value="{{ keyword }}" auto-focus placeholder="赛事新闻"/>
-  </view>
+  <image class="logo" mode="heightFix" src="/images/mr.jpg"></image>
+  <van-search shape="round" placeholder="赛事新闻"></van-search>
 </view>
 <swiper 
   indicator-dots="{{indicatorDots}}"
@@ -14,7 +10,7 @@
   duration="{{duration}}">
   <swiper-item wx:for="{{background}}" wx:key="*this">
     <view class="swiper-image-container">
-      <image class="swiper-image" mode="aspectFill" src="../../images/mr.jpg"></image>
+      <image class="swiper-image" mode="aspectFill" src="/images/mr.jpg"></image>
     </view>
   </swiper-item>
 </swiper>
@@ -23,7 +19,7 @@
     <text>赛事新闻</text>
   </view>
   <view class="news-body">
-    <view wx:for="{{ 10 }}" class="news-item" bind:tap="jumpDetail">
+    <view wx:for="{{ 10 }}" wx:key="*this" class="news-item" bind:tap="jumpDetail">
       <image class="news-item-image" src="../../images/mr.jpg"></image>
       <view>
         <view class="news-item-title">六安酷跑马拉松赛事-全国预计举办70场全国预计举办70场！</view>

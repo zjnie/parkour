@@ -1,5 +1,6 @@
 /**app.wxss**/
 @import './iconfont.wxss';
+@import './vant.wxss';
 
 page, view, swiper, swiper-item {
   box-sizing: border-box;
@@ -10,3 +11,5 @@ page {
   background-color: #eeeeee;
   overflow: auto;
 }
+
+

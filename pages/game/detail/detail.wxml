@@ -1,2 +1,12 @@
-<!--pages/game/detail/detail.wxml-->
-<text>pages/game/detail/detail.wxml</text>
+<view class="scroll-container">
+  <view class="title">六安酷跑马拉松赛事-全国预计举办70场！</view>
+  <view class="time">2023-02-23</view>
+  <view class="content">
+    为了深入贯彻落实教育部《关于进一步加强中小学生体质健康管理工作的通》，我们为了六安地区490多所小学，32多万小学生的身心健康，特将30多项成年人的竞技体育项目，其中包括运动量极大的《马拉松》项目，进行了儿童化 趣味化改造，为小学生们设计了特别好玩的《小学生酷跑马拉松嘉年华》活动，让小学生们体验体育运动给他们带来的欢乐！ 
+    <image src="../../../images/mr.jpg"></image>
+    <image src="../../../images/mr.jpg"></image>
+  </view>
+</view>
+<view class="button-container">
+  <button type="primary" bind:tap="apply">立刻报名</button>
+</view>

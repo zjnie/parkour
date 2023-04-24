@@ -1,1 +1,49 @@
 /* pages/game/detail/detail.wxss */
+.scroll-container {
+  height: calc(100% - 136rpx);
+  padding: 42rpx 52rpx 21rpx;
+  overflow: auto;
+}
+
+.title {
+  font-size: 32rpx;
+  font-weight: 500;
+  color: #333333;
+  line-height: 44rpx;
+}
+
+.time {
+  margin-top: 16rpx;
+  font-size: 28rpx;
+  font-weight: 400;
+  color: #989696;
+  line-height: 40rpx;
+  padding-bottom: 36rpx;
+  border-bottom: 2rpx solid #E5E5E5;
+}
+
+.content {
+  flex-grow: 1;
+  margin: 0 -52rpx; 
+  padding: 36rpx 52rpx 0;
+  font-size: 28rpx;
+  font-weight: 400;
+  color: #484545;
+  line-height: 40rpx;
+  text-align: justify;
+  overflow: auto;
+}
+
+.content > image {
+  margin-top: 26rpx;
+}
+
+.button-container {
+  height: 136rpx;
+  padding: 22rpx 52rpx;
+  background-color: #fff;
+}
+
+button {
+  border-radius: 50rpx;
+}
