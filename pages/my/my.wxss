@@ -1,0 +1,43 @@
+/* pages/my-center/my-center.wxss */
+.header {
+  padding-top: 150rpx;
+  height: 300rpx;
+  display: flex;
+  color: #fff;
+  background-color: blue;
+}
+
+.header-image {
+  margin: 0 40rpx;
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 50%;
+}
+
+.header-number {
+  margin-top: 8rpx;
+  opacity: .6;
+  font-size: 24rpx;
+}
+
+.body {
+  margin: 24rpx;
+  padding: 0 24rpx;
+  border-radius: 24rpx;
+  background-color: #fff;
+}
+
+.body-item {
+  display: flex;
+  align-items: center;
+  height: 80rpx;
+  padding-left: 24rpx;
+}
+
+.body-item + .body-item {
+  border-top: 1px solid #f5f5f5;
+}
+
+.body .icon-arrow-right {
+  margin-left: auto;
+}

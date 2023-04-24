@@ -1,7 +1,12 @@
 /**app.wxss**/
-page, view {
+@import './iconfont.wxss';
+
+page, view, swiper, swiper-item {
   box-sizing: border-box;
 }
 page {
   height: 100%;
+  font-size: 28rpx;
+  background-color: #eeeeee;
+  overflow: auto;
 }

@@ -1,0 +1,14 @@
+<!--pages/my-center/my-center.wxml-->
+<view class="header">
+  <image class="header-image" src="../../images/mr.jpg"></image>
+  <view>
+    <view class="header-username">猫小猫Love</view>
+    <view class="header-number">运动号：154878959652</view>
+  </view>
+</view>
+<view class="body">
+  <view wx:for="{{ items }}" wx:key="*this" class="body-item">
+    <text> {{ item.name }}</text>
+    <view class="iconfont icon-arrow-right"></view>
+  </view>
+</view>
